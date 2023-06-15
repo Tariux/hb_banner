@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Yekan;
+    src: url('http://codingland.ir/wp-content/plugins/hbmake_banner/admin/fonts/Yekan.eot');
+    src: url('http://codingland.ir/wp-content/plugins/hbmake_banner/admin/fonts/Yekan.eot?#iefix') format('Yekan-opentype'),
+    url('http://codingland.ir/wp-content/plugins/hbmake_banner/admin/fonts/Yekan.woff') format('woff'),
+    url('http://codingland.ir/wp-content/plugins/hbmake_banner/admin/fonts/Yekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#hb_banner_container th,td,lable,p,h1,h2,h3,h4,h5,h6{
+    font-size: 15px !important;
+}
+
+.yekan {
+    font-family: Yekan !important;
+}
+
+.font16 {
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+
+.pull-right {
+    margin-right: 86% !important;
+}
+
+.error {
+    color: #ff0000;
+    font-family: Yekan;
+}
+
+body {
+    text-align: right !important;
+    direction: rtl !important;
+}
+
+.hb_banner_panel {
+    padding: 5px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #bdbdbd;
+}
+
+
+#refresher {
+    display: none;
+}
+
+
+#hb_banners_discount {
+    display: none;
+}
+#all_work {
+    margin-right: 3px;
+}
+
+.hb_banner_row_flex {
+  display: flex;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.table-container {
+    margin-right: 10px;
+}
+.form-container {
+    margin-left: 10px;
+}
+
+.hb_banner_table {
+  min-width: 470px;
+  text-align: center;
+  border-collapse: collapse;
+  border: solid 1px #e8e8e8;
+}
+.hb_banner_table th {
+  background-color: #454545;
+  color: #fff;
+  padding: 10px;
+}
+.hb_banner_table td {
+  padding: 10px;
+}
+
+.hb_banner_form_group {
+  padding:10px;
+  margin-botton: 10px;
+  width: 100%;
+}
+
+.hb_banner_form_group input, select, textarea {
+    width: 100%;
+}
+
+.hb_banner_remove_btn {
+  background-color: #F30;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.banner_btn_danger {
+    cursor: pointer; 
+    color: #fff; 
+    background-color: #F30; 
+    padding:5px; 
+    border: none; 
+    border-radius: 5px;
+}
